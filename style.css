@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#input {
+    height: 30vh;
+    width: 60%;
+    display: block;
+    margin: 1rem;
+}
+
+#btn-translate {
+
+}
+
+#output {
+    height: 30vh;
+    width: 60%;
+    border: 1px solid black;
+    display: block;
+    margin: 1rem;
+
+}
