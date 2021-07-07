@@ -120,3 +120,59 @@ main {
     color: var(--secondary-color);
     padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 800px) {
+    .navigation h1 {
+        font-size: 2rem;
+    }
+
+    .navigation h1 img {
+        max-width: 60px;
+        right: 25px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .navigation h1 img {
+        top: 55px;
+        max-width: 55px;
+    }
+
+    #input {
+        font-size: 1rem;
+    }
+
+    #output {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .navigation h1 {
+        font-size: 1.5rem;
+    }
+
+    .navigation h1 img {
+        right: 45px;
+        max-width: 45px;
+        top: 45px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .navigation h1 img {
+        right: 35px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .navigation h1 img {
+        right: 30px;
+        max-width: 40px;
+    }
+}
